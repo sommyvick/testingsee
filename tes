@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seafood Delights | Fresh & Delicious Seafood</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #2e8b57;
+            color: white;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .cta {
+            margin: 20px 0;
+            padding: 15px 30px;
+            background-color: #ff6347;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        .cta:hover {
+            background-color: #e55347;
+        }
+        .container {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #2e8b57;
+            color: white;
+            padding: 20px;
+            font-size: 1em;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seafood Delights</h1>
+        <p>Fresh & Delicious Seafood Delivered to Your Doorstep</p>
+        <a href="https://www.instagram.com/yourinstagram" class="cta" target="_blank">Follow Us on Instagram</a>
+    </header>
+
+    <div class="container">
+        <h2>Our Bestsellers</h2>
+        <div class="gallery">
+            <img src="seafood1.jpg" alt="Seafood Dish 1">
+            <img src="seafood2.jpg" alt="Seafood Dish 2">
+            <img src="seafood3.jpg" alt="Seafood Dish 3">
+        </div>
+        <p>Explore our delicious seafood selections on our Instagram page. From succulent shrimp to fresh fish, we have something for every seafood lover!</p>
+        <a href="https://www.instagram.com/yourinstagram" class="cta" target="_blank">Shop Now on Instagram</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Seafood Delights. All rights reserved.</p>
+        <p>Visit our <a href="https://www.instagram.com/yourinstagram" target="_blank">Instagram</a> for the latest updates and offers!</p>
+    </footer>
+</body>
+</html>
